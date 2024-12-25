@@ -4,7 +4,7 @@ import ArrowDown from "@/assets/icons/arrow-down.svg";
 
 export const HeroSection = () => {
   return (
-    <div className="py-32 md:py-48">
+    <div className="py-32 md:py-48 lg:py-60">
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
@@ -19,14 +19,16 @@ export const HeroSection = () => {
             </div>
           </div>
         </div>
-        <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-          Building Execeptional User Experience
-        </h1>
-        <p className="mt-4 text-center text-white/60">
-          I am a software engineer specializing in building exceptional digital
-          ability and user experience.
-        </p>
-        <div className="flex flex-col items-center mt-8 gap-4">
+        <div className="max-w-lg mx-auto ">
+          <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
+            Building Execeptional User Experience
+          </h1>
+          <p className="mt-4 text-center text-white/60 md:text-lg">
+            I am a software engineer specializing in building exceptional
+            digital ability and user experience.
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
           <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
             <span className="font-semibold">Explore My Work</span>
             <ArrowDown className="size-4" />
