@@ -1,4 +1,6 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
+
+//-z-20; flex ic js ; 4:33
 
 const HeroOrbit = ({
   children,
@@ -6,8 +8,9 @@ const HeroOrbit = ({
   rotation,
 }: PropsWithChildren<{ size: number; rotation: number }>) => {
   return (
-    <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
+    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
       <div
+        className=""
         style={{
           transform: `rotate(${rotation}deg)`,
           height: `${size}px`,
