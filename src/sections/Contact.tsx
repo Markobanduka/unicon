@@ -31,6 +31,11 @@ export const ContactSection = () => {
           </div>
         </div>
       </div>
+      <div>
+        <a href="/docs/unicon.docx" download="unicon.docx">
+          Download Certificates
+        </a>
+      </div>
     </div>
   );
 };
