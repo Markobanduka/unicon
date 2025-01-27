@@ -5,7 +5,6 @@ import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import HeroOrbit from "@/components/HeroOrbit";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
-import logo from "@/assets/images/logo.jpeg";
 
 export const HeroSection = () => {
   return (
@@ -53,7 +52,7 @@ export const HeroSection = () => {
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
-            src={logo}
+            src={memojiImage}
             className="size-[100px]"
             alt="Person peeking from behind laptop"
           />
