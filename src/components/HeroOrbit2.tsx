@@ -11,24 +11,15 @@ const HeroOrbit = ({
   rotation: number;
 }>) => {
   return (
-    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ">
+    <div className="relative w-full h-full flex items-center justify-center ">
       <div className="">
         <div
-          className=""
+          className="inline-flex"
           style={{
-            transform: `rotate(${rotation}deg)`,
-            height: `${size}px`,
-            width: `${size}px`,
+            transform: `rotate(${rotation * -1}deg)`,
           }}
         >
-          <div
-            className="inline-flex"
-            style={{
-              transform: `rotate(${rotation * -1}deg)`,
-            }}
-          >
-            {children}
-          </div>
+          {children}
         </div>
       </div>
     </div>
