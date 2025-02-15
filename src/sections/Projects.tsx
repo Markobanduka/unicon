@@ -1,5 +1,12 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import Certificate1 from "@/assets/images/Certificate1.jpg";
+import Certificate0 from "@/assets/images/Certificate0.jpg";
+import Certificate2 from "@/assets/images/Certificate2.png";
+import Certificate3 from "@/assets/images/Certificate3.jpg";
+import Certificate4 from "@/assets/images/Certificate4.png";
+import Certificate5 from "@/assets/images/Certificate5.jpg";
+import Certificate6 from "@/assets/images/Certificate6.jpg";
+import Certificate7 from "@/assets/images/Certificate7.jpg";
+
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
@@ -9,40 +16,40 @@ import Card from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Bosch Security Academy",
+    year: "2007",
+    title: "Fire Training Course FPA-5000",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Fire Panel Hardware" },
+      { title: "Fire Panel Software" },
+      { title: "Bosch Security Systems" },
     ],
     link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    image: Certificate7,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Siemon Company Ltd",
+    year: "2004",
+    title: "Simon Kyalahansi",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Completed the required training" },
+      { title: "Satisfactorily met all requirements" },
+      { title: "Became a Siemon Cabling System Certified Installer" },
     ],
     link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    image: Certificate4,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Siemon Company",
+    year: "2006",
+    title: "Issac Omondi Owyango",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Completed the required training" },
+      { title: "Satisfactorily met all requirements" },
+      { title: "Became a Siemon Distribution Listed Installer" },
     ],
     link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    image: Certificate3,
   },
 ];
 
