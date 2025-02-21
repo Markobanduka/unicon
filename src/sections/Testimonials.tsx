@@ -5,40 +5,105 @@ import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
 import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
 import SectionHeader from "@/components/SectionHeader";
 import Image from "next/image";
-import grainImage from "@/assets/images/grain.jpg";
 import Card from "@/components/Card";
 import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
-    text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
+    name: "Mr. Dejan Kostic",
+    position: "Managing Director",
+    nationality: "Serbian",
+    qualification: "B.Sc. Economics",
+    experience: "29 years",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
-    text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
+    name: "Mrs. Zorana Kostic",
+    position: "General Manager",
+    nationality: "Serbian",
+    qualification: "Masters. Sc. Civil Engineering, (Chartered Engineer)",
+    experience: "29 years",
     avatar: memojiAvatar2,
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Alex's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
+    name: "Bernard Raruoch",
+    position: "Project Manager / Technical Manager",
+    nationality: "Kenyan",
+    qualification: "Diploma in Electrical Engineering",
+    experience: "30 years",
     avatar: memojiAvatar3,
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Alex is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
+    name: "Ian Forbes",
+    position: "Contracts Manager",
+    nationality: "British",
+    qualification: "Chartered Quantity Surveyor",
+    experience: "46 years",
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Alex's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
+    name: "Rade Bozic",
+    position: "Plant, Equipment & Workshop Manager",
+    nationality: "Serbian",
+    qualification: "Mechanical Engineer",
+    experience: "48 years",
     avatar: memojiAvatar5,
+  },
+  {
+    name: "Ssekiro Levi",
+    position: "Foreman Instrumentation",
+    nationality: "Ugandan",
+    qualification: "Diploma in Electrical Engineering",
+    experience: "8 years",
+    avatar: memojiAvatar1,
+  },
+  {
+    name: "Simon Mateka",
+    position: "Plumbing Foreman",
+    nationality: "Ugandan",
+    qualification: "Diploma in Mechanical Engineering",
+    experience: "18 years",
+    avatar: memojiAvatar2,
+  },
+  {
+    name: "Anthony Andany",
+    position: "Site Foreman - HVAC and plumbing",
+    nationality: "Kenyan",
+    qualification: "Higher Diploma plumbing",
+    experience: "23 years",
+    avatar: memojiAvatar3,
+  },
+  {
+    name: "Robert Assimwe",
+    position: "Finance & Administration",
+    nationality: "Ugandan",
+    qualification: "Accountant",
+    experience: "20 years",
+    avatar: memojiAvatar4,
+  },
+  {
+    name: "Augustine Matovu",
+    position: "Linesman HV Trade Test Grade II",
+    nationality: "Ugandan",
+    qualification: "Foreman/Linesman Overhead lines",
+    experience: "12 years",
+    avatar: memojiAvatar5,
+  },
+  {
+    name: "Stephen Odongo",
+    position: "IT, CCTV, Fire detection Foreman",
+    nationality: "Ugandan",
+    qualification: "IT & Telecommunication Engineering",
+    experience: "7 years",
+    avatar: memojiAvatar1,
+  },
+  {
+    name: "Joseph Opio",
+    position: "Site Foreman",
+    nationality: "Ugandan",
+    qualification: "Diploma in Electrical Engineering, Class B “ERA” permit",
+    experience: "20 years",
+    avatar: memojiAvatar2,
   },
 ];
 
@@ -47,9 +112,9 @@ export const TestimonialsSection = () => {
     <div className="py-16 lg:py-24">
       <div className="container">
         <SectionHeader
-          eyebrow="Happy Clients"
-          title="What Clients Say about Us"
-          description="Do not just take my word for it. See what my clients have to say about my work."
+          eyebrow="Our Team"
+          title="The Professionals Who Make It Happen"
+          description="Below we have a list of some of our staff with their qualification and years of experience."
         />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,#000_10%,#000_90%,transparent)]py-4 -my-4">
           <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
@@ -78,9 +143,24 @@ export const TestimonialsSection = () => {
                           </div>
                         </div>
                       </div>
-                      <p className="mt-4 md:mt-6 text-sm md:text-base">
-                        {testimonial.text}
-                      </p>
+                      <div className="mt-4 md:mt-6 text-sm md:text-base">
+                        <ul>
+                          <li>
+                            <span className="text-white/50">Nationality: </span>
+                            {testimonial.nationality}
+                          </li>
+                          <li>
+                            <span className="text-white/50">
+                              Qualification:{" "}
+                            </span>
+                            {testimonial.qualification}
+                          </li>
+                          <li>
+                            <span className="text-white/50">Experience: </span>
+                            {testimonial.experience}
+                          </li>
+                        </ul>
+                      </div>
                     </Card>
                   ))}
                 </Fragment>
