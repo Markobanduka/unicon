@@ -162,7 +162,16 @@ const AboutUsSection = () => {
             </div>
             <div className="py-6">
               <h3 className="italic underline">Quality Assurance</h3>
-              <p className="py-4"></p>
+              <p className="py-4">
+                UNICON is committed to operating a quality assurance system that
+                complies with British and ISO standards. Implementing these
+                quality systems allows us to demonstrate our adherence to all
+                aspects of contract specifications. Additionally, our company
+                has a Siemon Cabling Systems U.S.A certified designer and
+                installer, ensuring that our voice and data installations meet
+                the regulations and specifications set by this leading
+                manufacturer of voice and data cabling systems.
+              </p>
             </div>
           </div>
         </div>
