@@ -17,10 +17,11 @@ import Picture14 from "@/assets/images/Picture14.png";
 import Picture15 from "@/assets/images/Picture15.png";
 import Picture16 from "@/assets/images/Picture16.png";
 import Picture17 from "@/assets/images/Picture17.png";
+import Picture18 from "@/assets/images/Picture18.png";
 
 const AboutUsSection = () => {
   return (
-    <div>
+    <div id="About">
       <SectionHeader
         eyebrow="About Us"
         title="Our Story & Mission"
@@ -444,6 +445,229 @@ const AboutUsSection = () => {
                 <li>Accton</li>
                 <li>Alcatel</li>
                 <li>Hewlett Packard</li>
+              </ul>
+            </div>
+            <div className="py-6">
+              <h3 className="italic underline">Projects</h3>
+              <p className="py-4">
+                Engineering excellence has been achieved by UNICON through the
+                various and vast different kinds, sizes and complexities of
+                projects successfully executed by our staff over the years. We
+                deliver full project packages, from design implementation to
+                after installation maintenance, thus delivering highest quality
+                standards to achieve client satisfaction. Some of the projects
+                we were involved include:
+              </p>
+              <ul className="list-disc py-4">
+                <li>
+                  Electrical and mechanical installation at New Classrooms and
+                  Ambulance at International School of Uganda, Lubowa, Kampala
+                </li>
+                <li>
+                  Voice and Data Installations at New MTN Redundancy Switch -
+                  Kigali
+                </li>
+                <li>
+                  Air-Conditioning installation at the MTN Redundancy Switch -
+                  Kigali - installation and commissioning of 7 Split units of
+                  100.000 BTU Uniflair
+                </li>
+                <li>Access Control Systems at MTN New Offices - Kigali</li>
+                <li>CCTV at MTN New Offices - Kigali</li>
+                <li>
+                  Electrical, Voice & Data Installations at the New URA Offices,
+                  European Union Offices in Crested Towers
+                </li>
+                <li>
+                  Voice & Data Installations at the African Motors offices on
+                  7th Street - Kampala
+                </li>
+                <li>
+                  Supply of electrical materials to MONUC UN mission for Congo
+                  and South Sudan, Log-base in Entebbe
+                </li>
+                <li>
+                  Electrical and Air Conditioning installations for European
+                  Union Housing Estate in Juba, South Sudan for Terrain Services
+                  Ltd.
+                </li>
+                <li>
+                  Electrical, Mechanical, Voice & Data and Air Conditioning
+                  Installations at MOFPED Main & Treasury Building and Parking
+                  Yard Remodeling and Refurbishment Project for Complant
+                  Engineering & Trade
+                </li>
+                <li>
+                  Electrical Installations, CCTV, V&D and Access Control at Plot
+                  2A Kampala Road, Head Quarters for Global Trust Bank
+                </li>
+                <li>
+                  Construction of 11kV Distribution Line in Bombo Barracks for
+                  Ministry of Defense, UPDF
+                </li>
+                <li>
+                  Air Conditioning Installation for Centenary Rural Development
+                  Bank - Entebbe Road and Nakivubo Branches
+                </li>
+                <li>
+                  Electrical and Voice and Data Installations, CCTV and Access
+                  Control at Refurbishment of Telecom House in Kigali, Rwanda
+                  for Roko Construction (Rwanda) S.a.r.l.
+                </li>
+                <li>
+                  Electrical Installations at New Orange Shops in Kampala and
+                  Entebbe for BVS Milano Construction
+                </li>
+                <li>
+                  Electrical Installations at New Abacus Parenteral Drugs
+                  Factory in Mukono
+                </li>
+                <li>
+                  Supply and installation of CCTV Distribution Amplifiers and
+                  Plazma TV sets to Parliament of Uganda
+                </li>
+                <li>
+                  Electrical & Mechanical Installations at Proposed New Office
+                  Park at Nakasero Road for Nakasero Towers Ltd.
+                </li>
+                <li>
+                  CCTV and Access Control installations at German
+                  Ambassador&apos;s residence, Kampala
+                </li>
+                <li>
+                  Voice and Data, CCTV, Access Control electrical fit-out of
+                  Global Lotto Offices at Nakasero Towers Building
+                </li>
+                <li>CCTV installations at Sports TV HQ, Kampala</li>
+                <li>
+                  CCTV installations for Roofings Limited at the New HQ in
+                  Lubowa and New Factory in Namanwe
+                </li>
+                <li>
+                  Voice & Data, electrical fit-out of Agribusiness Trust&apos;s
+                  New Offices at Nakasero Towers
+                </li>
+                <li>
+                  Electrical and Plumbing Installations at New Mutesa II
+                  Shopping Mall, Katwe Kampala
+                </li>
+                <li>
+                  Supply and installation of PABX and Voice & Data structured
+                  cabling at New Centenary Rural Development Bank HQ (Mapera
+                  House) at Kampala Road for Roko Construction Ltd.
+                </li>
+                <li>
+                  Supply of the camera software licenses, servicing and
+                  upgrading of the system for Uganda Police Force&apos;s CCTV
+                  command centre
+                </li>
+                <li>
+                  Installation of the CCTV surveillance site in Entebbe for
+                  Uganda Police Force
+                </li>
+                <li>
+                  Repair and service of the Bosch CCTV system at Lake Victoria
+                  Serena Resort
+                </li>
+                <li>
+                  Electrical & Plumbing installations for New Apartment Block
+                  estate for Ezra Enterprises at Nalubale Link
+                </li>
+                <li>
+                  Electrical Installations at New Maize Mill for Aponye Uganda
+                  LTD at Nalukolongo
+                </li>
+                <li>
+                  Construction of Mockup Rammed Earth Wall and Solar Roof
+                  Structure for Emergency Life Support for Civilians at Entebbe
+                </li>
+                <li>CCTV installations at Kazi Foods Warehouses</li>
+                <li>
+                  Electrical Installations at Proposed New Commercial
+                  Development at Burton Street for Aponye Ltd.
+                </li>
+                <li>
+                  Kigali Convention Centre - Consultancy, Audit, Commissioning
+                  and Certification by VdS of Bosch Fire Detection and Alarm
+                  system at New Convention Centre & Hotel
+                </li>
+                <li>
+                  Furniture Fit out of British High Commission New Viza Center
+                  at Victoria Court
+                </li>
+                <li>
+                  Security Systems at New Sadolin Factory, Namanwe Industrial
+                  Area - Fire Alarm and Detection, Intruder Alarm
+                </li>
+                <li>
+                  UNHCR New Offices at Kololo - Supply, Installation of CCTV,
+                  Fire Detection and Access Control
+                </li>
+                <li>
+                  Electrical and Fire Installations at New French School in
+                  Mukono for Umoja Ltd.
+                </li>
+                <li>
+                  Construction services for APRU Mining Project in Kikagati,
+                  Isingiro Ph I & Ph II
+                </li>
+                <li>
+                  Automatic Fire Suppression, CCTV and Access Control for 33/11
+                  KVA 40 MVA Transformer Substation Namugongo
+                </li>
+                <li>
+                  CCTV surveillance system for Uganda Police Force Workshop in
+                  Kampala
+                </li>
+                <li>
+                  CCTV surveillance installations for Uganda Police Force at 8
+                  Sites and Forensic Department
+                </li>
+                <li>
+                  Automatic Fire Suppression, CCTV and Access Control for 33/11
+                  KVA 40 MVA Transformer Substation Moniko
+                </li>
+                <li>
+                  Automatic Fire Suppression for 33/11 KVA 40 MVA Transformer
+                  Substation Mbale & Bombo
+                </li>
+                <li>
+                  Extension & Connection of Power Line to Staff Houses and SUEZ
+                  Yard at Katosi Drinking Water Treatment Plant and Nsumba
+                  pumping reservoir
+                </li>
+              </ul>
+              <h3 className="underline italic font-bold py-6">
+                Current Projects:
+              </h3>
+              <ul className="list-disc py-4">
+                <li>
+                  Electrical Installations & Fire Detection at Bugolobi Waste
+                  Water Treatment Plant (2 x 1.6 MVA 11kV/LV Transformers, MDB +
+                  8 x Motor Control Centers, Power Cabling & Reticulation of
+                  complete Site, Instrumentation cables, Fire Alarm & Detection,
+                  Testing & Commissioning)
+                </li>
+                <li>
+                  Kabaale International Airport Project in Hoima - Electrical &
+                  Mechanical Installations at Cargo TERMINAL Building
+                </li>
+                <li>
+                  Kabaale International Airport Project in Hoima - Electrical &
+                  Mechanical Installations at AGL SUBSTATION - ADDENDUM NO. 1
+                </li>
+                <li>
+                  Kabaale International Airport Project in Hoima - Electrical &
+                  Mechanical Installations at AIR RESCUE & FIRE FIGHTING
+                  BUILDING
+                </li>
+                <li>
+                  Design, manufacture, supply, installation, testing and
+                  commissioning of SCADA equipment for automation of PACMECS
+                  network including training of staff on operation/use and
+                  maintenance of SCADA equipment - REA/SUPLS/17-18/00307 -
+                  Sub-contract for installation of primary equipment
+                </li>
               </ul>
             </div>
           </div>

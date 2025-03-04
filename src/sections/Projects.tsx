@@ -56,7 +56,7 @@ const portfolioProjects = [
 export const ProjectsSection = () => {
   return (
     <section className="pb-16 lg:py-24">
-      <div className="container">
+      <div id="Projects" className="container">
         <SectionHeader
           eyebrow="Real-world Results"
           title=" Featured Projects"
@@ -112,6 +112,11 @@ export const ProjectsSection = () => {
               </div>
             </Card>
           ))}
+        </div>
+        <div>
+          <a href="/docs/unicon.docx" download="unicon.docx">
+            Download Certificates
+          </a>
         </div>
       </div>
     </section>
